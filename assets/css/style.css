@@ -10,6 +10,27 @@
 		width: 7%;
 		height: 7%
 	}
+	.footer{
+	 border-top:solid 2px;
+	 border-color: #1e2024; 
+	 display:flex;
+	 position: fixed;
+	 left: 0;
+	 bottom: 0;
+	 width: 100%;
+	 color: #f5f2f5;
+	 justify-content: space-around;
+	 
+
+	}
+	.logo{
+
+	}
+	.icon{
+		width:3rem;
+		height:3rem;
+		
+	}
 
 
 
