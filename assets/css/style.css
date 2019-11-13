@@ -2,15 +2,25 @@
 
 	/* Main */
 	.logo{
+		padding-top: 0.5%;
+		padding-left: 41%; 
 		width: 20%;
 		height: 20%
 	}
 
 	.config{
+		padding-left: 28%;
+		margin-bottom: 1.5%;
 		width: 7%;
 		height: 7%
 	}
 
 
+	.header{
+		border-style: solid;
+		border-width: 1px;
+		background-color: lightblue;
+		border-color: lightblue;
+	}
 
 }
