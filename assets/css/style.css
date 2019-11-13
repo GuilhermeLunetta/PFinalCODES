@@ -1,0 +1,16 @@
+@media(max-width: 375px){
+
+	/* Main */
+	.logo{
+		width: 20%;
+		height: 20%
+	}
+
+	.config{
+		width: 7%;
+		height: 7%
+	}
+
+
+
+}
