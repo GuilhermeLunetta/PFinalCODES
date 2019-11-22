@@ -10,14 +10,16 @@
 
 	.config{
 		padding-left: 28%;
-		margin-bottom: 1.5%;
+		margin-bottom: 2.9%;
 		width: 7%;
 		height: 7%
 	}
+	
 	.footer{
 	 display:flex;
 	 border-top:solid 2px;
-	 border-color: #1e2024; 
+	 border-color: #1e2024;
+	 background-color: lightblue;
 	 display:flex;
 	 position: fixed;
 	 left: 0;
@@ -25,12 +27,9 @@
 	 width: 100%;
 	 color: #f5f2f5;
 	 justify-content: space-around;
-	 
 
-	}
-	.logo{
-
-	}
+		}
+	
 	.icon{
 		width:3rem;
 		height:3rem;
@@ -40,10 +39,11 @@
 
 
 	.header{
-		border-style: solid;
+		padding-top: 14px;
+		border-bottom: solid 2px;
 		border-width: 1px;
 		background-color: lightblue;
-		border-color: lightblue;
+		border-color: #1e2024;
 	}
 
 }
