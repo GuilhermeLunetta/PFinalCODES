@@ -9,10 +9,10 @@
 	}
 
 	.config{
-		padding-left: 28%;
-		margin-bottom: 2.9%;
-		width: 7%;
-		height: 7%
+		padding-left: 26%;
+		margin-bottom: 2.8%;
+		width: 9%;
+		height: 9%
 	}
 	
 	.footer{
@@ -39,11 +39,24 @@
 
 
 	.header{
-		padding-top: 14px;
+		padding-top: 12px;
 		border-bottom: solid 2px;
 		border-width: 1px;
 		background-color: lightblue;
 		border-color: #1e2024;
+	}
+
+	.div1{
+		border-style: solid;
+		border-width: 2px;
+		margin-left: 10px;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+
+	.face{
+		width: 150px;
+		height: 150px;
 	}
 
 }
