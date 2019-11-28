@@ -14,12 +14,13 @@
 		width: 9%;
 		height: 9%
 	}
+
 	
 	.footer{
 	 display:flex;
 	 border-top:solid 2px;
 	 border-color: #1e2024;
-	 background-color: lightblue;
+	 background-color:#7fffd4;
 	 display:flex;
 	 position: fixed;
 	 left: 0;
@@ -40,18 +41,10 @@
 
 	.header{
 		padding-top: 12px;
-		border-bottom: solid 2px;
 		border-width: 1px;
-		background-color: lightblue;
+		background-color:#7fffd4;		;
 		border-color: #1e2024;
-	}
-
-	.div1{
-		border-style: solid;
-		border-width: 2px;
-		margin-left: 10px;
-		margin-top: 10px;
-		margin-right: 10px;
+		position:sticky;
 	}
 
 	.face{
@@ -60,3 +53,48 @@
 	}
 
 }
+	.conteudo-alonga{
+		background: #f5f2f5		;
+	}
+	.titulo{
+		color:#1e2024;
+	}
+	.alongamento1{
+
+	}
+
+
+	.div1{
+		display:flex;
+		font-family: 'ABeeZee', sans-serif;
+		font-size:18px;
+		flex-direction:row;
+		align-content:space-around;
+		border:solid;
+		border-color:#838a9e;
+		border-width:7px;
+		border-radius:15px;
+		margin:2px 5px 5px 5px;
+		
+			
+		
+	}
+
+	.face{
+		justify-content:left;
+		width:10rem;
+		height:12rem;
+		margin-right: 10px;
+		padding:3px;
+		border-radius:15px;
+
+	}
+	.texto{
+		flex-direction: row wrap;
+		margin:5px;
+		justify-content:space-around;
+	}
+	.conteudo{
+		background-color:#10d1e6;
+
+	}
