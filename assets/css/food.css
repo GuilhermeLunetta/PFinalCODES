@@ -47,24 +47,33 @@
 
 
 	.div_food{
-		border-style: solid;
-		border-width: 2px;
-		margin-left: 10px;
-		margin-top: 10px;
-		margin-right: 10px;
+		display:flex;
+		font-family: 'ABeeZee', sans-serif;
+		font-size:18px;
+		flex-direction:row;
+		align-content:space-around;
+		border:solid;
+		border-color:#838a9e;
+		border-width:7px;
+		border-radius:15px;
+		margin:2px 5px 5px 5px;
+		
 	}
 
 	.food{
-		width: 150px;
-		height: 150px;
+		justify-content:left;
+		width:10rem;
+		height:12rem;
+		margin-right: 10px;
+		padding:3px;
+		border-radius:15px;
 	}
 	
 	.texto{
-		position: relative;
-		display: inline;
-		margin-top: 10px;
-		margin-left: 5px;
-		line-height: 2;
+		flex-direction: row wrap;
+		margin:5px;
+		justify-content:space-around;
+	}
 
 	}
 }
