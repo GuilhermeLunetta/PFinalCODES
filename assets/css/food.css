@@ -46,7 +46,7 @@
 	}
 
 
-	.div_food{
+	.div1{
 		display:flex;
 		font-family: 'ABeeZee', sans-serif;
 		font-size:18px;
@@ -68,12 +68,14 @@
 		padding:3px;
 		border-radius:15px;
 	}
-	
+
 	.texto{
 		flex-direction: row wrap;
 		margin:5px;
 		justify-content:space-around;
 	}
 
+	.conteudo{
+		background-color:#10d1e6;
 	}
 }
