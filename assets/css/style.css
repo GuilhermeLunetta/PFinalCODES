@@ -71,13 +71,11 @@
 		align-content:space-around;
 		border:solid;
 		border-color:#838a9e;
-		border-width:4px;
-		border-radius:15px;
-		margin:2px 5px 5px 5px;
+		border-width:1px;
+		border-style: none none solid none;
+		margin:2px 0px 5px 0px;
 		
-			
-		
-	}
+			}
 
 	.face{
 		justify-content:left;
@@ -105,5 +103,17 @@
 	}
 	.nearme{
 		width:375px;
-		height:	400px;
+		height:	300px;
 	}
+	.academias{
+	font-family:'ABeeZee',sans-serif;
+	margin-top:3px;
+	margin-left:8px;
+	border-color:#10d1e6;
+	border-width:1px;
+	border-style: none none solid none;
+	margin:2px 0px 5px 0px;
+	}
+	.checked {
+		color: orange;
+	  }
