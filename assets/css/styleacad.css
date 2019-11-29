@@ -67,4 +67,63 @@
 
 	}
 
+	.top{
+		border-style: solid;
+		border-width: 2px;
+		background-color: black;
+	}
+
+	.name{
+		position: relative;
+		color: white;
+		font-size: 30px;
+		margin-left: 10px;
+		display: inline-block;
+		bottom: 10px;
+
+	}
+
+	.profpic{
+		border-radius: 15px;
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+		margin-top: 7px;
+	}
+
+	.write{
+		position: relative;
+		border-style: solid;
+		border-width: 2px;
+		background-color: lightgrey;
+		border-radius: 20px;
+		height: 50px;
+		width: 290px;
+		margin-top: 430px;
+		margin-left: 10px;
+
+	}
+
+	.bg{
+		position: absolute;
+		height: 495px;
+		width: 375px;
+	}
+
+	.msg{
+		position: relative;
+		margin-left: 20px;
+		margin-top: 12px;
+		font-size: 25px;
+	}
+
+	.button{
+		position: relative;
+		height: 50px;
+		width: 50px;
+		bottom: 52px;
+		left: 310px;
+	}
+
+
 }
